@@ -16,8 +16,7 @@ console.log(gender)
 // Задание 2
 // Перепишите код с использованием тернарного оператора
 let country = 'Sweden';
-let access;
-country == 'Sweden' ? access = true : access = false;
+let access = country == 'Sweden' ? true : false
 console.log(access);
 
 
@@ -34,7 +33,8 @@ console.log(access);
 const roles = [true, false, false, true, false];
 let role = [];
 for (i = 0; i < roles.length; i++){
-    roles[i] === true ? role.push('role: admin') : role.push('role: user');
+    let userRole = roles[i] == true ? 'admin' : 'user'; 
+    role.push({role: userRole});
 }
 console.log(role);
 
@@ -166,8 +166,7 @@ getSquares(4,10)
 // Написать функцию isInteger(x), которая определяет, является ли число целым, и возвращает true либо false.
 // Для проверки, целое ли число, вам понадобится опеатор % (подумайте, остаток от деления на какое число подойдет для вашей цели)
 function isInteger(x){
-    let boolean
-    (x % 1 === 0) ? boolean = true : boolean = false;
+    let boolean = (x % 1 === 0) ? true : false;
     console.log(boolean)
 }
 isInteger(3);
