@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+.cont{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: rgb(48, 48, 255);
+}
+nav{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.burger{
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+}
+.bbutton{
+    width: 15px;
+    height: 15px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 26%;
+}
+.menu a{
+    padding: 10px 100px 10px 15px;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+}
+.sec-butt{
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    position: absolute;
+    top: 25px;
+}
+.sec-butt img{
+    height: 15px;
+}
+.visible{
+    display: flex;
+}
+.invisible{
+    display: none;
+}
+.buttons{
+    width: 10%;
+}
