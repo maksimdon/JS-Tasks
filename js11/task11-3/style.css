@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.imgs{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    height: 200px;
+    transition: 1s;
+}
+.active{
+    border: 3px beige solid;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+}
